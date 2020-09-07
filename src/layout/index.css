@@ -1,0 +1,530 @@
+body{
+  background-color:white;
+ 
+}
+.SectionGroup #animation{
+  width:68%;
+  position: absolute;
+  right:-4%;
+  top:180px;
+  z-index: 0;
+
+}
+.SectionGroup{
+    /*background: url('../images/toutu.jpg');*/
+    
+    height: 700px ！important;
+    position: relative ！important;
+    top:0px ！important;
+    left:0px ！important;
+    
+    }
+
+
+
+    
+    .SectionTitle{
+      position: absolute;
+      left:115px;
+      width:500px;
+      top:200px;
+      
+      
+    }
+    
+    .SectionTitle h1{
+      font-family: BanglaMN-bold;
+      font-size: 75px;
+      color:#37307D;
+      margin: 60px 0px 20px 0px;
+      position: absolute;;
+      top:25%;
+      opacity: 0;
+      animation:EnterAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1); 
+      }
+    
+      .SectionTitle h2{
+      font-family: BanglaMN;
+      font-size:20px;
+      position: absolute;;
+      top:0px;
+      margin: 50px,0px;
+      color:#37307D;
+      opacity: 0;
+      animation:EnterAnimation 3s  forwards cubic-bezier(0.2, 0.8, 0.2, 1); 
+      }
+    
+      .SectionTitle p{
+      font-size:14px;
+      color: #A2A4B1;
+      max-width: 440px;
+      font-family: pingfangsc-regular;
+      text-align: justify;
+      line-height: 21px;
+      position: absolute;;
+      top:200px;
+      opacity: 0;
+      animation:EnterAnimation 3s 0.6s forwards cubic-bezier(0.2, 0.8, 0.2, 1); 
+
+      }
+    
+    .SectionContent{
+      max-width: 400px;
+      display:grid;
+      grid-template-columns: 20px 2fr 20px 2fr;
+      justify-items: left;
+      align-items: center;
+      grid-gap: 20px;
+      position: absolute;;
+      top:180px;
+      opacity: 0;
+      animation:EnterAnimation 3s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1); 
+    }
+
+    .SectionContent a{
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #37307D;
+      letter-spacing: 0;
+      line-height: 14px;  
+      padding:0px 30px 0px 0px;
+      margin:0px 20px 0px -15px;
+      
+  
+    }
+
+    @keyframes EnterAnimation{
+      from{
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to{
+        opacity: 1;
+        transform: translateY(0px);
+
+      }
+    }
+
+    .Circlepic img{
+   width:100%;
+   position: absolute;
+   top:-150px;
+   left:0px;
+   width:100%;
+
+    
+    }
+
+
+
+
+    .SchoolCardGroup{
+      padding: 0px 50px;
+      margin-left: auto;
+      margin-right:auto;
+      background-color: white;
+      
+      height:400px;
+      position: relative;
+      top:-200px;
+      
+      
+    }
+   
+    .SchoolGroup1 h1{
+      text-align: center;
+      margin-left: auto;
+      margin-right:auto;
+      z-index: 100;
+      font-family: BanglaMN;
+      font-size: 14px;
+      
+      color: #A2A4B1;
+    }
+
+    .SchoolGroup1 h2{
+      text-align: center;
+  z-index: 100;
+      font-family: BanglaMN-Bold;
+     font-size: 20px;
+     color: #37307D;
+     margin-left: auto;
+     margin-right:auto;
+    }
+
+
+
+    .SchoolCardContent {
+      max-width: 1300px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      justify-items: center;
+            
+      opacity: 0;
+      transform: translateY(50px);
+      transition: 2s cubic-bezier(0.2, 0.8, 0.2, 1);
+      
+      }
+
+          .SchoolCardContent.show{
+            transform: translateY(0px);
+            
+            opacity: 1;
+          }
+
+      .WorkCardGroup{
+        position: relative;
+      top:0;
+      
+      height:1200px;
+      }
+  
+     
+      .WorkImage1 img{
+        position:absolute;
+        top:0px;
+        left:400px;
+      }
+
+      .WorkImage2 img{
+        position:absolute;
+        top:310px;
+        right:320px;
+      }
+      .WorkCard1{
+        position: absolute;
+        top:0px;
+        right:160px;
+      }
+
+      .WorkCard2{
+        position: absolute;
+        top:200px;
+        left:140px;
+      }
+
+      .WorkCard3{
+        position: absolute;
+        top:597px;
+        right:240px;
+      }
+      .WorkImage3 img{
+        position:absolute;
+        top:553px;
+        left:200px;
+      }
+      .WorkImage4 img{
+        position:absolute;
+        top:856px;
+        right:130px;
+      }
+      .Circlepic2 img {
+        position: absolute;
+        top:970px;
+        width:100%;
+        transform: rotateX(180deg)
+      }
+
+      .DarkSection h1{
+        font-family: BanglaMN-Bold;
+        font-size: 75px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 100px;
+        width: 650px;
+        position: absolute;
+        left:150px;
+         top:100px;
+      }
+
+      .Dkpic img{
+        width:470px;
+        position: absolute;
+        left:150px;
+        top:400px;
+      }
+
+      .DarkSection{
+        position:relative;
+        top:100px;
+        left:0px;
+        height:100px;
+      }
+
+
+      .DarkSectionUX{
+        position: relative;
+        top:800px;
+        height:500px;
+        
+    
+      }
+
+      .DarkSectionUX h1{
+        font-family: BanglaMN-Bold;
+        font-size: 42px;
+        color: #FFFFFF;
+        position: absolute;
+        top:0px;
+        left:150px;
+      }
+
+      .DarkSectionUX h2{
+        font-family: BanglaMN-Bold;
+        font-size: 42px;
+        color: #FFFFFF;
+        position: absolute;
+        top:60px;
+        left:150px;
+      }
+
+      .DarkSectionUX a1{
+        font-family: PingFangSC-Ultralight;
+        font-size: 100px;
+        color: #FFFFFF;
+        position: absolute;
+        top:160px;
+        left:150px;
+      }
+
+      .DarkSectionUX a2{
+        font-family: PingFangSC-Ultralight;
+        font-size: 100px;
+        color: #FFFFFF;
+        position: absolute;
+        top:160px;
+        left:310px;
+      }
+
+      .DarkSectionUX a3{
+        font-family: PingFangSC-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        position: absolute;
+        top:290px;
+        left:150px;
+      }
+
+      .DarkSectionUX a4{
+        font-family: PingFangSC-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        position: absolute;
+        top:290px;
+        left:310px;
+      }
+
+      .DarkSectionUX p{
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #D3D5EC;
+        line-height: 21px;
+        width:526px;
+        position: absolute;
+        top:320px;
+        left:150px;
+      }
+
+      .DarkSectionUX #animation2{
+        position: absolute;
+        right:0;
+        width:48%;
+        top:0;
+      }
+
+      .DarkSectionUI{
+        margin:120px 0px 0px 0px;
+        height:500px;
+        width:50%;
+        position: relative;
+        top:800px;
+        left:0px;
+
+      }
+
+      .DarkSectionUI h1{
+        font-family: BanglaMN-Bold;
+        font-size: 42px;
+        color: #FFFFFF;
+        position: absolute;
+        left:150px;
+        top:0px;
+
+      }
+
+      .DarkSectionUI h2{
+        font-family: BanglaMN-Bold;
+        font-size: 42px;
+        color: #FFFFFF;
+        position: absolute;
+        left:150px;
+        top:60px;
+      }
+
+      .DarkSectionUI p{
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #D3D5EC;
+      line-height: 21px;
+      width:440px;
+      position: absolute;
+      left:150px;
+      top:150px;
+      }
+      .SoftwareCardc{
+        width:390px;
+        height: 456px;
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        top:300px;
+        left:130px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-items: center;
+        align-items: center; 
+      }
+
+      h3 {
+        opacity: 0.03;
+        transform: rotate(-90deg);
+        font-family: BanglaMN-Bold;
+        font-size: 240px;
+        color: #FFFFFF;
+        position: absolute;
+        TOP:1100px;
+        left:-350px;
+      }
+
+      h4 {
+        opacity: 0.03;
+        font-family: BanglaMN-Bold;
+        font-size: 160px;
+        color: #FFFFFF;
+        position: absolute;
+        TOP:1600px;
+        right:0px
+      }
+
+
+      .SoftwareCardd{
+  
+        width:390px;
+        height: 456px;
+        margin: 0px 0px 0px 0px;
+        position: absolute;
+        top:300px;
+        left:130px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 25% 25% 25% 25%;
+        justify-items: center;
+        align-items: center; 
+      }
+
+      
+      .DarkSectionCode{
+        margin:120px 0px 0px 0px;
+        height:500px;
+        width:50%;
+        position: relative;
+        top:180px;
+        left:600px;
+
+      }
+
+      .DarkSectionCode h1{
+        font-family: BanglaMN-Bold;
+        font-size: 42px;
+        color: #FFFFFF;
+        position: absolute;
+        left:150px;
+        top:0px;
+
+      }
+
+      .DarkSectionCode h2{
+        font-family: BanglaMN-Bold;
+        font-size: 42px;
+        color: #FFFFFF;
+        position: absolute;
+        left:150px;
+        top:60px;
+      }
+
+      .DarkSectionCode p{
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #D3D5EC;
+        line-height: 21px;
+        width:440px;
+        position: absolute;
+        left:150px;
+        top:150px;
+        }
+
+      .SoftwareCardGroup{
+        position: relative;
+        top:-200px;
+        z-index: -100;
+        width:100%;
+        margin:0px auto 150px auto;
+        height:2500px;
+      background-color: #533451;
+      }
+
+      .Circlepic3 img {
+        z-index: 100;
+        position: absolute;
+        top:0px;
+        width:100%;
+        top:-140px;
+        transform: rotateY(180deg)
+        
+      
+      }
+
+      .Foot{
+        background-color:white;
+        height:500px;
+        position: relative;
+        top:-500px;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+      img.Softwareimg {
+        width:650px;
+        height: 456px;;
+        position: absolute;
+        left:50px;
+        top:0px;
+        margin: 0px 0px 0px 0px;
+      }
+
+      .AbilityGroup{
+        width:1200px;
+        margin:0px auto 100px auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+      }
+      .blog-post-content{
+        margin:0 auto;
+        max-width: 800px;
+      }
+      
+      */

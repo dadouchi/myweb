@@ -1,0 +1,43 @@
+.HeaderGroup{
+    padding: 10px 0;
+    z-index: 100;
+    
+    position: absolute;
+    top:0px;
+    width:100%;
+    
+    }
+    
+    .HeaderCenter{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .header-menu a{
+        font-family: pingfangsc-regular;
+        font-size: 14px;
+        color:#939699;
+        letter-spacing: 0;
+        text-align: right;
+        line-height: 20px;   
+        margin:0 20px;
+        padding:0px 0px;
+        text-decoration: none;
+    }
+  
+
+    .header-menu a:hover{
+        font-family: pingfangsc-semibold;
+        color:black;
+    }
+    
+    
+    
+    .header-menu {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }

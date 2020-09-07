@@ -1,0 +1,32 @@
+.ArticleContent{
+    max-width: 1000px;
+    background-color: white;
+    margin:0px auto 0px auto;
+    position: relative;
+    top:50px;
+}
+.ArticleContent img{
+    width:1000px;
+    margin:0px auto 0px auto;
+}
+.ArticleTop img{
+    width:16px;
+}
+.ArticleTop a{
+    color: black;
+    margin: 0px 0px 4px 4px;
+    text-decoration: none;
+    font-family: pingfangsc-regular;
+
+}
+
+.ArticleContent p{
+    line-height: 2em;
+    color:gray;
+}
+
+.ArticleContent h2{
+    font-size:20px;
+    font-family:pingfangsc-semibold ;
+    color:black;
+}

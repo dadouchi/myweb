@@ -1,0 +1,62 @@
+.SchoolCard{
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px 0 rgba(213,213,213,0.30);
+    border-radius: 10px;
+    height:447px;
+    width: 322px;
+    display: grid;
+    grid-template-rows: 200px 24px 78px 24px 24px 52px auto;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .SchoolCard a{
+    font-size:18px;
+    font-family: pingfangsc-regular;
+    color:black;
+
+  }
+  
+  .SchoolCard a2{
+
+    font-family: PingFangSC-Semibold;
+    font-size: 20px;
+    color: #101115;
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  .SchoolCard span{
+    font-family: pingfangsc-regular;
+    font-size: 12px;
+    background-color: #f6f6f6;
+    padding:4px 8px;
+    margin: 0px 8px 40px 0px;
+  }
+  
+  .SchoolCard a4{
+
+    font-family: PingFangSC-Regular;
+font-size: 14px;
+color: #101115;
+text-align: center;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

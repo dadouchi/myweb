@@ -1,0 +1,31 @@
+.SoftwareCard {
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.30);
+   
+
+
+
+
+
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+    display: grid;
+    grid-template-rows:30px 50px;
+    justify-items: center;
+    align-items: center;
+  
+}
+
+.SoftwareCard img{
+    height: 35px;
+    width: 35px;
+    margin:0px auto 10px auto;
+
+}
+
+.SoftwareCard a{
+    font-family: pingfangsc-regular;
+    font-size: 12px;
+
+}

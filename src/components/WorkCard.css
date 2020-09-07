@@ -1,0 +1,68 @@
+.WorkCard{
+    width: 390px;
+    height:220px;
+    position: relative;
+    margin: 0px 0px 50px 0px;
+    background-color:white;
+}
+
+.WorkCard a{
+    font-family: pingfangsc-semibold;
+    font-size: 32px;
+    color:black;
+    position: absolute;
+    top:0px;
+
+
+}
+
+.WorkCard h1{
+    font-family: PingFangSC-light;
+    font-weight: 400;
+    position: absolute;
+    top:52px;
+    margin: 0px;
+    font-size: 16px;
+    color: #101115;
+
+}
+
+.WorkCard h2{
+    font-family: PingFangSC-light;
+    font-weight: 400;
+    position: absolute;
+    top:78px;
+    margin: 0px;
+    font-size: 16px;
+    color: #101115;
+
+}
+
+.WorkCard p1{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    margin: 0px;
+    position: absolute;
+    top:110px;
+    right:0px;    
+color: #A2A4B1;
+line-height:24px;
+font-weight: 400;
+}
+
+.WorkCard p2{
+    font-weight: 400;  
+
+text-align: justify;
+line-height:24px;
+position: absolute;
+
+top:250px;
+font-family: PingFangSC-Regular;
+font-size: 14px;
+color: #A2A4B1;
+
+
+
+}
+

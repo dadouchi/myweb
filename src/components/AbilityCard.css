@@ -1,0 +1,44 @@
+.AbilityCardGroup{
+    width: 250px;
+    height: 600px;
+
+    position: relative;
+}
+
+.AbilityCard{
+    width: 250px;
+    height: 460px;
+    position: absolute;
+    bottom:0px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px 0 rgba(213,213,213,0.30);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows:1fr,1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.AbilityCardGroup a{
+    opacity: 0.2;
+    font-family: Arial-Black;
+    font-size: 210px;
+    color: #A3ACB4;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 210px;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.AbilityCardGroup h{
+    font-family: PingFangSC-Regular;
+font-size: 24px;
+color: #000000;
+letter-spacing: 0;
+line-height: 30px;
+position: absolute;
+top:110px;
+left:0px;
+}

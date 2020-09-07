@@ -1,0 +1,11 @@
+.BlogGroup{
+    max-width: 1200px;
+    margin:36px auto 0px auto;
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    
+}
+

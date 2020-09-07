@@ -1,0 +1,80 @@
+/*
+.Hero{
+    background: red;
+    height: 820px;
+    background-position: center;
+    position:relative;
+}
+*/
+
+.HeroGroup{
+    width: 1000px;
+    height:800px;
+    margin:50px auto 0px auto;
+    background-color: white;
+    background-position:center;
+}
+
+
+.HeroGroup .Back img{
+    width:16px;
+    height:16px;
+}
+
+.HeroGroup  h1{
+    color:black;
+    font-size:48px;
+    font-weight: bolder;
+    font-family:pingfangsc-semibold;
+    text-decoration: none;
+    text-align: left;
+    
+   
+   margin:0px 0px 0px 0px;
+}
+
+.HeroGroup img{
+    width:1000px;
+    margin:px auto 0px auto;
+    background-position:center;
+    position: relative;
+    
+}
+.HeroGroup  a{
+  
+   color:black;
+   font-size: 16px;
+   font-family: pingfangsc-regular; 
+   position: relative;
+   left:24px;
+   top:-57px;
+
+}
+.HeroGroup p{
+    color:grey;
+    font-size: 24px;
+    line-height:1.0;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
