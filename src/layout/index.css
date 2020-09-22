@@ -2,6 +2,10 @@ body{
   background-color:white;
  
 }
+a {
+  text-decoration: none;
+  font-display:pingfangsc ;
+}
 .SectionGroup #animation{
   width:68%;
   position: absolute;
@@ -61,7 +65,8 @@ body{
       font-family: pingfangsc-regular;
       text-align: justify;
       line-height: 21px;
-      position: absolute;;
+      position: absolute;
+      line-height: 24px;
       top:200px;
       opacity: 0;
       animation:EnterAnimation 3s 0.6s forwards cubic-bezier(0.2, 0.8, 0.2, 1); 
@@ -126,7 +131,7 @@ body{
       
       height:400px;
       position: relative;
-      top:-200px;
+      top:-130px;
       
       
     }
@@ -211,7 +216,7 @@ body{
       }
       .WorkImage3 img{
         position:absolute;
-        top:553px;
+        top:500px;
         left:200px;
       }
       .WorkImage4 img{
@@ -221,18 +226,18 @@ body{
       }
       .Circlepic2 img {
         position: absolute;
-        top:970px;
+        top:690px;
         width:100%;
         transform: rotateX(180deg)
       }
 
       .DarkSection h1{
         font-family: BanglaMN-Bold;
-        font-size: 75px;
+        font-size: 60px;
         color: #FFFFFF;
         letter-spacing: 0;
         line-height: 100px;
-        width: 650px;
+        width: 1000px;
         position: absolute;
         left:150px;
          top:100px;
@@ -242,7 +247,19 @@ body{
         width:470px;
         position: absolute;
         left:150px;
-        top:400px;
+        top:300px;
+      }
+
+      .DarkSection p1{
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #D3D5EC;
+        line-height: 21px;
+        width:440px;
+        position: absolute;
+        right:100px;
+        top:300px;
+        line-height: 24px;
       }
 
       .DarkSection{
@@ -260,6 +277,55 @@ body{
         
     
       }
+
+      .button{
+        position: absolute;
+        
+        width:500px;
+        height:100px;
+        left:150px;
+        z-index: 100;
+        top:3400px;
+        
+        
+      }
+
+      .button a{
+        border: white;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        font-family:PingFangSC-regular ;
+        text-decoration: none;
+        padding:4px 12px 4px 12px;
+        color:#533451;
+        background-color: white;
+        font-size: 14px;
+        margin:0px 20px 0px 0px;
+        z-index: 10;
+        opacity: 0.8;
+      }
+
+      .button a:hover{
+        opacity: 1;
+        
+      }
+
+      .buttonPic img{
+  width:370px;
+  height:300px;
+  opacity: 0;
+  position: absolute;
+  left:220px;
+  top:-35px;
+      }
+
+      .buttonPic img:hover{
+
+        opacity: 1;
+            }
+
+
 
       .DarkSectionUX h1{
         font-family: BanglaMN-Bold;
@@ -281,38 +347,38 @@ body{
 
       .DarkSectionUX a1{
         font-family: PingFangSC-Ultralight;
-        font-size: 100px;
+        font-size: 48px;
         color: #FFFFFF;
         position: absolute;
-        top:160px;
+        top:200px;
         left:150px;
       }
 
       .DarkSectionUX a2{
         font-family: PingFangSC-Ultralight;
-        font-size: 100px;
+        font-size: 48px;
         color: #FFFFFF;
         position: absolute;
-        top:160px;
-        left:310px;
+        top:200px;
+        left:250px;
       }
 
       .DarkSectionUX a3{
         font-family: PingFangSC-Regular;
-        font-size: 24px;
-        color: #FFFFFF;
+        font-size: 14px;
+        color:  #FFFFFF;
         position: absolute;
-        top:290px;
+        top:260px;
         left:150px;
       }
 
       .DarkSectionUX a4{
         font-family: PingFangSC-Regular;
-        font-size: 24px;
-        color: #FFFFFF;
+        font-size: 14px;
+        color:  #FFFFFF;
         position: absolute;
-        top:290px;
-        left:310px;
+        top:260px;
+        left:250px;
       }
 
       .DarkSectionUX p{
@@ -322,7 +388,7 @@ body{
         line-height: 21px;
         width:526px;
         position: absolute;
-        top:320px;
+        top:140px;
         left:150px;
       }
 
@@ -377,7 +443,7 @@ body{
         height: 456px;
         margin: 0px 0px 0px 0px;
         position: absolute;
-        top:300px;
+        top:200px;
         left:130px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -414,7 +480,7 @@ body{
         height: 456px;
         margin: 0px 0px 0px 0px;
         position: absolute;
-        top:300px;
+        top:200px;
         left:130px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -466,32 +532,49 @@ body{
 
       .SoftwareCardGroup{
         position: relative;
-        top:-200px;
+        top:-500px;
         z-index: -100;
         width:100%;
         margin:0px auto 150px auto;
-        height:2500px;
+        height:2300px;
       background-color: #533451;
       }
 
       .Circlepic3 img {
+       
         z-index: 100;
         position: absolute;
         top:0px;
         width:100%;
-        top:-140px;
+        top:-300px;
         transform: rotateY(180deg)
         
       
       }
 
       .Foot{
-        background-color:white;
-        height:500px;
+        
+        height:10px;
         position: relative;
         top:-500px;
       }
+      .PojectCardGroup{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        max-width:1150px;
+        
+        margin:0px auto 0px auto;
+      }
       
+      .ProjectSection{
+        position: absolute;
+        top:4400px;
+        margin: 0px auto 0px auto;
+        width: 100%;
+        
+        
+      }
 
 
 

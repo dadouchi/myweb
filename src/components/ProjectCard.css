@@ -1,0 +1,61 @@
+.ProjectCard {
+    background-color: greenyellow;
+    width: 500px;
+    height:150px;
+    padding:10px 20px 50px 20px;
+    border-radius: 12px;
+
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 0.3s;
+    
+}
+.ProjectCard {
+    display: grid;
+    grid-template-rows: 0px 10px auto; 
+    justify-items: left;
+    align-items: left;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px 0 rgba(213,213,213,0.30);
+    margin:20px auto 20px auto;
+}
+.ProjectCard2 {
+    position: relative;
+    top:-110px;
+    
+    width:500px;
+}
+
+
+.ProjectCard2 p {
+    font-family: PingFangSC-Regular;
+font-size: 14px;
+color: #A2A4B1;
+width: 290px;
+text-align: justify;
+}
+
+.ProjectCard2 h1{
+
+    font-family: PingFangSC-Semibold;
+    font-size: 20px;
+    color: #101115;
+
+
+}
+.ProjectCard2 h2{
+    font-family: pingfangsc-regular;
+    font-size: 12px;
+
+}
+
+.ProjectCard  img{
+    width:200px;
+ position: relative;
+ left:300px;
+ top:60px;
+}
+
+.ProjectCard:hover {
+    transform:translateY(-8px);
+    transform:scale(1.05);
+}

@@ -9,6 +9,8 @@ import SchoolCard from '../components/SchoolCard'
 import WorkCard from '../components/WorkCard'
 import SoftwareCard from '../components/SoftwareCard'
 import AbilityCard from '../components/AbilityCard'
+import BottomGroup from '../components/BottomGroup'
+import ProjectCard from '../components/ProjectCard'
 
 const Layout =({ children,data})=>(
     <div>
@@ -25,6 +27,8 @@ const Layout =({ children,data})=>(
        <WorkCard />
        <SoftwareCard/>
        <AbilityCard/>
+       <ProjectCard/>
+       <BottomGroup />
         {children()}
     </div>
 )

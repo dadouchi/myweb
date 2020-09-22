@@ -4,6 +4,7 @@ import '../layout/fenxiang.css'
 
 import Header from '../components/header'
 import SEO from "../components/seo"
+import BottomGroup from '../components/BottomGroup'
 
 const FenxiangPage = () => (
   
@@ -69,7 +70,7 @@ const FenxiangPage = () => (
         <br />
         <br />
         <br />
-
+        <BottomGroup/>
         
     </div>
     </div>

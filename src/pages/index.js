@@ -8,10 +8,12 @@ import Title from'../components/Title'
 import SchoolCard from '../components/SchoolCard'
 import WorkCard from '../components/WorkCard'
 import SoftwareCard from '../components/SoftwareCard'
+import BottomGroup from '../components/BottomGroup'
 import AbilityCard from '../components/AbilityCard'
 
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ProjectCard from "../components/ProjectCard"
 const lottie = require("lottie-web")
 const ScrollMagic=require("Scrollmagic")
 
@@ -79,7 +81,7 @@ class IndexPage extends React.Component{
             <img src={require('../images/icon_iphone.png')} width='16'></img>
             <a>13126652270</a>
           </div>
-        <p>现居北京，搜狐高级用户体验设计师。毕业于湖南大学，后前往英国伦敦大学玛丽女王学院学习媒体艺术并取得硕士学历。4年从业经验，专注于研交互设计的基础上不断拓展上下游的知识技能，包括UI、动效设计。除此之外，掌握一定的前端开发能力包括react、javascript、css。</p>
+        <p>现居北京，搜狐高级用户体验设计师。毕业于湖南大学，后前往英国伦敦大学玛丽女王学院学习媒体艺术并取得硕士学历。4年从业经验，专注于交互设计的基础上，不断拓展上下游的知识技能，包括UI、动效设计。除此之外，掌握一定的前端开发能力包括react、javascript、css。</p>
  
       </div>
     </div>
@@ -126,7 +128,7 @@ class IndexPage extends React.Component{
             major="媒体艺术"/> 
 
          </div>   
-        
+         
       </div>   
 
     <Title
@@ -145,8 +147,8 @@ class IndexPage extends React.Component{
         title1="Senior UX Designer"
         title2="搜狐 | 智能媒体UED、搜狐资讯UED"
         title3="2019.04-NOW"
-        content1="1、『搜狐资讯』产品线交互设计师和设计接口人，负责B端和C端的交互设计工作，涉及PC、WAP、小程序和APP。引入动效工具Principle，建立基于 Sketch的设计工作方式，担任 Chief Designer 重制『百聘C端改版1.0』产品上线一年帮助近2000万用户成功找到工作。" 
-        content2="2、『糯米商家端』和『销售端』交互设计师，负责“资质认证、合约签订、账号监控”等板块的交互工作。" 
+        content1="1、『搜狐资讯』产品线主设，承接所有运营活动的交互设计工作，包括『养鸡』、『春节集福卡』、『辟谣答题』，下载量达558万次，日活最高达100万。" 
+        content2="2、『搜狐号』设计接口人，带领4人设计小组，提高用户体验。" 
         
         />
         
@@ -157,8 +159,8 @@ class IndexPage extends React.Component{
         title1="UX Designer"
         title2="百度 | 百度百聘UED、糯米UED"
         title3="2016.10-2019.04"
-        content1="1、『百度百聘』产品线交互设计师和设计接口人，负责B端和C端的交互设计工作，涉及PC、WAP、小程序和APP。引入动效工具Principle，建立基于 Sketch的设计工作方式，担任 Chief Designer 重制『百聘C端改版1.0』产品上线一年帮助近2000万用户成功找到工作。" 
-        content2="2、『糯米商家端』和『销售端』交互设计师，负责“资质认证、合约签订、账号监控”等板块的交互工作。"
+        content1="1、『百度百聘』产品线交互设计师，负责B端和C端的交互设计工作，涉及PC、WAP、小程序和APP。引入动效工具Principle，产品上线一年帮助近2000万用户成功找到工作。" 
+        content2="2、『糯米商家端』和『销售端』交互设计师，负责“账号、店铺装修”等板块的B端交互工作。"
         />
         
         </div>
@@ -167,40 +169,42 @@ class IndexPage extends React.Component{
         <div className="Circlepic2"><img src={require('../images/circlepic.png')} ></img></div>
     </div>
 
+    <div className="button">
+            <a href="https://www.uisdc.com/u/38392#publish#hunter" target="_blank">细节体验</a>
+            <a href="http://www.woshipm.com/u/298058" target="_blank">产品设计</a>
+            
+              <a>理论实践</a>
+              <div className="buttonPic"><img src={require('../images/erweima.png')} ></img>
+             </div> 
+          </div>
 
- 
-
-
-
-
-   
-    
+  
 
     <div className="SoftwareCardGroup">
-       
-
         <div className="DarkSection">
           <h1>UX Design &UI Design &Code</h1>
           <div className="Dkpic"><img src={require('../images/darksection.png')} ></img></div>
- 
+          <p1>搜狐UED全栈设计师，专注于交互设计。除此之外，掌握基础UI能力。基于sketch组件库设计方法，并引入lottie、principle动效,帮助团队提升体验。并具备基础前端技术react、javescript、css等。</p1>
+     
 
-        </div>
+         </div>
 
         <div className="DarkSectionUX">
           <h1>PUBLISH</h1>
           <h2>ARTICLES ONLINE</h2>
           <a1>13</a1>
-          <a2>46000</a2>
-          <a3>Articles</a3>
-          <a4>Pageviews</a4>
-          <p>I trained myself as a full stack designer.I am a  designer who work with both user experience and illustation of website or application—meaning I can tackle projects that involve research,analysing problem,drawing framework,prototyping and building interface design.Besides,I passionate with front-end development.</p>
-          <div id="animation2"></div>
+          <a2>6.5w</a2>
+          <a3>文章数</a3>
+          <a4>总阅读</a4>
+          <p> 『优设网』细节猎人栏目作者、『人人都是产品经理』网站自媒体作者</p>
+         <div id="animation2"></div>
+
         </div>
 
         <div className="DarkSectionUI">
           <h1>DESIGN</h1>
           <h2>SOFTWARE</h2>
-          <p>I trained myself as a full stack designer.I am a  designer who work with both user experience and illustation of website or application—meaning I can tackle projects that involve research,analysing problem,drawing framework,prototyping and building interface design.Besides,I passionate with front-end development.</p>
+          <p>竞品分析、可用性测试、原型设计、UI设计、动效设计、设计管理</p>
           <div className="SoftwareCardc">
             <SoftwareCard
               title1="AXURE"
@@ -238,7 +242,7 @@ class IndexPage extends React.Component{
         <div className="DarkSectionCode">
           <h1>FRONT-END</h1>
           <h2>SKILL</h2>
-          <p>I trained myself as a full stack designer.I am a  designer who work with both user experience and illustation of website or application—meaning I can tackle projects that involve research,analysing problem,drawing framework,prototyping and building interface design.Besides,I passionate with front-end development.</p>
+          <p>前端网页基础开发</p>
           <div className="SoftwareCardd">
             <SoftwareCard
               title1="HTML"
@@ -261,19 +265,51 @@ class IndexPage extends React.Component{
         <h4>CODE</h4>
       </div>
 
+
       <div className="Foot">
       <div className="Circlepic3"><img src={require('../images/circlepic.png')} ></img></div>
       </div>
+     
+     <div className="ProjectSection">
+      <Title
+    title1="RECENT WORKS"
+    title2="PROJECT"
+    /> 
+      <div className="PojectCardGroup">
+      <ProjectCard
+        image={require('../images/bpyd_cover.png')}
+        title="百度百聘C端项目总结"
+        introduction="百度旗下的招聘产品，专注于服务于蓝领。本文将围绕“提高简历数量和质量”、“提升投递率”、“提升老用户留存比例”三个方面来进行阐述。"
+        tag="C端 · APP"
+        bloglink="/bpyd"
+      />
+      <ProjectCard
+        image={require('../images/gongshi_cover.png')}
+        title="运营活动公式"
+        introduction="“春节集福卡”、“养鸡”、“辟谣答题”、“春节祝福卡”、“周周分狐币”等活动完成有一段时间了，本文着重分析了这些活动背后共同的规律进行介绍。"
+        tag="C端 · APP"
+        bloglink="/gongshi"
+      />
+      <ProjectCard
+        image={require('../images/jhgf_cover.png')}
+        title="交互基础规范"
+        introduction="我们通常讨论的比较多的是UI规范，对于UE的规范较少一些，本文从“转场”、“缺省”、“加载”三个方面梳理，统一交互规范,来提高设计效率，保证一致性"
+        tag="C端 · APP"
+        bloglink="/jhgf"
+      />
+      <ProjectCard
+        image={require('../images/zhtx_cover.png')}
+        title="账号体系项目总结"
+        introduction="账号体系是B端平台的底层系统，本人对用户注册、登录和认证等账号功能设计进行了分析，结合相关流程总结了自己的思考和理解，总结归纳。"
+        tag="B端 · PC"
+        bloglink="/zhtx"
+      />
+      </div>
+      </div>
+      <BottomGroup />
 
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/page-3/">Go to page 3</Link>
+
    </div>
 
     )

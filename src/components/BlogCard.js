@@ -5,10 +5,12 @@ import { Link } from "gatsby"
 const BlogCard = props => (
     <div className="BlogCard">
         <Link to={props.bloglink}>
-        <img src={props.image} width='350px' ></img>
-        <a>{props.blogtitle}</a>
-        <a2>{props.blogtag}</a2>
-         </Link>
+        <img src={props.image} width='340px' ></img>
+        <div className="BlogCt">
+        <h1>{props.blogtitle}</h1>
+        <p2>{props.blogtag}</p2>
+        </div>
+        </Link>
       </div>
 
       

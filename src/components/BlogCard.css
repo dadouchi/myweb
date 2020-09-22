@@ -1,11 +1,11 @@
 .BlogCard{
     background-color:white;
-    height:280px;
-    width:300px;
-    margin:20px auto 20px auto;
+    height:300px;
+    width:340px;
+    margin:20px 10px 20px 10px;
     padding:0;
+    border-radius: 12px;
 
-    
     
     
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -15,46 +15,51 @@
 
 .BlogCard:hover{
     transform:translateY(-8px);
-    
     transform:scale(1.05);
 }
 
-
-.BlogCard a{
-    font-size:18px;
-    
-    font-family: pingfangsc-semibold;
-    max-width: 318px;
-    position: relative;
- 
-    text-decoration: none;
-    color: black;
-    margin:12px auto 12px 0px;
-    
+.BlogCard img{
+    border-radius: 12px 12px 0px 0px;
+    width: 340px;
+    height:192px;
 }
-
-.BlogCard a2{
+.BlogCt{
+    display: grid;
+grid-template-columns: repeat(2 1fr);
+justify-items: left;
+align-items: center;
+}
+.BlogCt h1{
+    text-decoration-line: none;
+    text-decoration: none;
+    font-size:18px;   
+    font-family: pingfangsc-semibold;
+    
+    color: black;
+    margin:12px 12px 12px 12px;
+}
+.BlogCt p2{
+    text-decoration: none;
     font-size:14px;
     font-family: pingfangsc-regular;
-    margin:8px auto 16px 0px;
-    padding: 0px 4px 0px 4px;
+    font-weight: 400;
+    margin:0px auto 12px 12px;
+    padding:4px 12px 4px 12px;
     border-radius: 2px;
     background-color: #f6f6f6;
-    display: grid;
-    align-self: center;
-    text-decoration: none;
+    
     color: black;
-    position: absolute;
-}
-
-.BlogCard img{
-    border-radius: 8px 8px 8px 8px;
-    width: 300px;
-    margin:0;
-    position: relative;
-    
-    
     
 }
 
 
+
+/*
+
+
+
+
+
+
+
+*/

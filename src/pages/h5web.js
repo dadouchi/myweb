@@ -4,6 +4,7 @@ import '../layout/fenxiang.css'
 
 import Header from '../components/header'
 import SEO from "../components/seo"
+import BottomGroup from '../components/BottomGroup'
 
 const H5webPage = () => (
   
@@ -40,7 +41,7 @@ const H5webPage = () => (
         <br />
         <br />
         <br />
-
+        <BottomGroup/>
         
     </div>
     </div>

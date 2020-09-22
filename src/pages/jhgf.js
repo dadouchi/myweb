@@ -4,6 +4,7 @@ import '../layout/fenxiang.css'
 
 import Header from '../components/header'
 import SEO from "../components/seo"
+import BottomGroup from '../components/BottomGroup'
 
 const JhgfPage = () => (
   
@@ -60,7 +61,7 @@ const JhgfPage = () => (
         <br />
         <br />
         <br />
-
+        <BottomGroup/>
         
     </div>
     </div>

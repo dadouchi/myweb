@@ -28,12 +28,7 @@
     }
   
 
-    .header-menu a:hover{
-        font-family: pingfangsc-semibold;
-        color:black;
-    }
-    
-    
+
     
     .header-menu {
         flex: 1;

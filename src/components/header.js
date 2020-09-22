@@ -13,10 +13,10 @@ const Header = ({ siteTitle }) => (
   <div className="HeaderCenter">
     
       <div className="header-menu">
-     <Link to="/404">CONTACT</Link>
-     <Link to="/page-2">BLOG</Link>
-     <Link to="/page-3">PROJECT</Link>
-     <Link to="/page-2">RESUME</Link>
+     <Link to="/page-contact">CONTACT</Link>
+     <Link to="/page-practice">PRACTICE</Link>
+     <a href="https://y1umir8ka2.feishu.cn/file/boxcn8VOevu9MJ1zBlX6N9Kgetd" target="_blank">RESUME</a>
+     <Link to="/page-2">PROJECT</Link>
      <Link to="/">HOME</Link>
   </div>
   </div>
